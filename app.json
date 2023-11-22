@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Agenda Telefonica",
+    "slug": "agendatelefonica",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rodrigost7.agendatelefonica"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c764c05e-1334-44fb-ac18-dcd8175b4e6e"
+      }
+    }
+  }
+}
